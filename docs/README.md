@@ -5,3 +5,5 @@ The bot looks for images posted inside of a specific discord channel and reacts 
 Github pages is one of the few whitelisted domains inside of VRChat that can allow for quick redoplyment of webpages.
 
 ![https://i.imgur.com/A96Z212.png](https://i.imgur.com/A96Z212.png)
+
+# [Video](https://streamable.com/0yp151)
