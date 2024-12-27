@@ -3,3 +3,6 @@
 .auth
 .env
 bin
+lib
+lib64
+__pycache__

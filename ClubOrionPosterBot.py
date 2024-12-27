@@ -33,7 +33,7 @@ TOKEN = os.getenv('DISCORD_TOKEN')
 GUILD = os.getenv('DISCORD_GUILD')
 LEADERID = int(os.getenv('DISCORD_GUILD_LEADER'))
 DBOXTOKEN = os.getenv('DROPBOX_TOKEN')
-REPO_DIR = "~/Desktop/ClubOrionGithubWebsite/Club-Orion"
+REPO_DIR = "/home/acchosen/Desktop/ClubOrionGithubWebsite/Club-Orion/"
 
 os.chdir(REPO_DIR)
 
@@ -294,6 +294,7 @@ async def on_raw_reaction_add(payload):
 
         posterAtlasImage.save("LobbyPosters-Orion-1-Export.png", format = 'PNG')
         # subprocess.call([r'ClubOrionToGithub.bat'])
+        os.system('git add --all')
         os.system('git commit -m "Update" -a')
         os.system('git push')
 
