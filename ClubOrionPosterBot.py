@@ -33,6 +33,9 @@ TOKEN = os.getenv('DISCORD_TOKEN')
 GUILD = os.getenv('DISCORD_GUILD')
 LEADERID = int(os.getenv('DISCORD_GUILD_LEADER'))
 DBOXTOKEN = os.getenv('DROPBOX_TOKEN')
+REPO_DIR = "~/Desktop/ClubOrionGithubWebsite/Club-Orion"
+
+os.chdir(REPO_DIR)
 
 intents = discord.Intents.default()
 client = discord.Client(command_prefix='!', intents=intents)
